@@ -21,6 +21,6 @@ install:
   - pip install codecov
   - pip install requests-mock
 script:
-  - pytest --cov=./
+  - pytest
 after_success:
   - codecov
